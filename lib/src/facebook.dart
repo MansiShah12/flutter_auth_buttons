@@ -28,7 +28,7 @@ class FacebookSignInButton extends StatelessWidget {
       buttonColor: Color(0xFF4267B2),
       borderRadius: borderRadius,
       onPressed: onPressed,
-      buttonPadding: 8.0,
+      buttonPadding: 5.0,
       children: <Widget>[
         // Facebook doesn't provide strict sizes, so this is a good
         // estimate of their examples within documentation.
@@ -42,7 +42,7 @@ class FacebookSignInButton extends StatelessWidget {
           width: 24.0,
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 14.0, right: 10.0),
+          padding: const EdgeInsets.only(left: 10.0),
           child: Text(
             text,
             style: TextStyle(

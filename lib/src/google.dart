@@ -45,10 +45,10 @@ class GoogleSignInButton extends StatelessWidget {
         // above). Something needs to give - either the 8dp is wrong or the
         // 40dp should be 36dp. I've opted to increase left padding to 10dp.
         Padding(
-          padding: const EdgeInsets.all(1.0),
+          padding: const EdgeInsets.only(left:12.0, right:12.0),
           child: Container(
-            height: 38.0, // 40dp - 2*1dp border
-            width: 38.0, // matches above
+            height: 30.0, // 40dp - 2*1dp border
+            width: 35.0, // matches above
             decoration: BoxDecoration(
               color: darkMode ? Colors.white : null,
               borderRadius: BorderRadius.circular(this.borderRadius),
